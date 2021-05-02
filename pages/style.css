@@ -27,7 +27,7 @@ section {
     position: absolute;
 }
 
-.circle1, .circle2, .circle3 {
+.circle1, .circle2, .circle3, .circle4 {
     background: white;
     background: linear-gradient(to left bottom, 
     rgba(255,255,255,0.8), 
@@ -105,4 +105,14 @@ section {
 .Info {
     color: black;
     padding: 10px 0 0 15px;
+}
+
+.circle4 {
+    top: 5%;
+    left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    z-index: 10;
 }
